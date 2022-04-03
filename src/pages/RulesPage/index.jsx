@@ -1,7 +1,7 @@
 import React from "react";
 
 const RulesPage = () => {
-  return <div>- kjbjkasf - jkbdfjksbdf - jbsdjkf - kjbsdjkf</div>;
+  return <div>Rules</div>;
 };
 
 export default RulesPage;
