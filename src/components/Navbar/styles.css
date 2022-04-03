@@ -1,45 +1,48 @@
 .navbar {
-    width: 100%;
-    color: white;
-    font-size: 20px;
-    background-color: var(--background-color);
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  background-color: var(--background-color);
 }
 .navContainer {
-    padding: 0rem 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 4rem;
+  padding: 0rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
 }
 .left {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .center {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .search {
-    width: 40vw;
-    height: 2rem;
-    border: 0.5px solid white;
-    color: white;
-    border-radius: 5px;
-    background-color: #192938;
+  width: 40vw;
+  height: 2rem;
+  border: 0.5px solid white;
+  color: white;
+  border-radius: 5px;
+  background-color: #192938;
 }
 img {
-    height: 3rem;
-    margin-right: 3rem;
+  height: 3rem;
+  margin-right: 3rem;
 }
 .right {
-    padding-right: 1rem;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+  padding-right: 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.login {
+  color: white;
 }
 .icon {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
