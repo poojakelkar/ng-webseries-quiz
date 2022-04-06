@@ -15,7 +15,7 @@ const Rules = () => {
           If you click right answer. you will go on to the next page.
         </p>
         <p className="rules">
-          Each question carries one marks.top side it show qustion counts.
+          Each question carries ten marks.top side it show qustion counts.
         </p>
         <p className="rules">
           After submitting question you cannot go back and changed it.
