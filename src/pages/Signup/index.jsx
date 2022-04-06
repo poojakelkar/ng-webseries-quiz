@@ -1,22 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./styles.css";
+import logoImg from "../../assets/logo.png";
 
 const Signup = () => {
   return (
     <div className="loginUser">
       <div className="topSide">
         <div className="logoImg">
-          <img
-            classname="logo"
-            src="https://cdn-icons-png.flaticon.com/512/2784/2784530.png"
-            alt="logo"
-          ></img>
+          <img classname="logo" src={logoImg} alt="logo"></img>
         </div>
       </div>
       <div className="sign-up-container">
         <form className="sign-up-form">
-          <h1 className="sign-up-title">Sign In</h1>
+          <h1 className="sign-up-title">Sign Up</h1>
           <input
             className="input-sign-up"
             type="text"
@@ -33,7 +30,7 @@ const Signup = () => {
             placeholder="Password"
           ></input>
           <Link className="link" to="/">
-            <button className="sign-up-button">Sign In</button>
+            <button className="sign-up-button">Sign Up</button>
           </Link>
           <span>
             Already have an account?{" "}
