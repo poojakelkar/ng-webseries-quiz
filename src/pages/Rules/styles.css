@@ -1,33 +1,33 @@
 .rules-container {
-    width: 40rem;
-    height: 30rem;
-    color: var(--font-color);
-    margin: auto;
-    padding: 1rem;
+  width: 40rem;
+  height: 30rem;
+  color: var(--font-color);
+  margin: auto;
+  padding: 1rem;
 }
 .wrapper {
-    flex-direction: column;
+  flex-direction: column;
 }
 .rule-heading {
-    text-align: center;
-    margin: 1rem 0rem;
+  text-align: center;
+  margin: 1rem 0rem;
 }
 .rules {
-    display: flex;
-    align-items: flex-start;
-    letter-spacing: 2px;
-    margin-top: 2.5rem;
-    font-size: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  letter-spacing: 2px;
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
 }
 .agree {
-    margin-top: 1.5rem;
-    padding: 2rem;
-    border-radius: 0.8rem;
-    font-size: 1rem;
-    font-weight: 600;
-    background-color: var(--button-color);
-    color: white;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: var(--button-color);
+  color: white;
 }
 .agree:hover {
-    background-color: var(--hover-color);
+  background-color: var(--hover-color);
 }
