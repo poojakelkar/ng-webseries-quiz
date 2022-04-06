@@ -14,7 +14,7 @@ const Finsight = () => {
             <div className="card-1">
               <img
                 className="poster-1"
-                src="https://static0.srcdn.com/wordpress/wp-content/uploads/2019/09/Suits-Banner.jpg"
+                src={quiz.thumbnail}
                 alt="postr-1"
               ></img>
               <p className="img-label">{quiz.title}</p>
