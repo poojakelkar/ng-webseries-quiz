@@ -5,6 +5,7 @@ import Login from "./pages/Login";
 import Questions from "./pages/Questions";
 import Quizzes from "./pages/Quizzes";
 import Result from "./pages/Result";
+import Rules from "./pages/Rules";
 import Signup from "./pages/Signup";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/quiz/:quizId/result/" element={<Result />} />
         <Route path="/login" element={<Login />} />
         <Route path="/sign-up" element={<Signup />} />
+        <Route path="/rules" element={<Rules />} />
       </Routes>
     </BrowserRouter>
   );
