@@ -28,6 +28,8 @@ export const reducer = (currentState, action) => {
       }
       console.log({ ...currentState }, "updated");
       return { ...currentState };
+    case types.STORE_QUIZZES:
+      return { ...action?.payload };
     default:
       break;
   }

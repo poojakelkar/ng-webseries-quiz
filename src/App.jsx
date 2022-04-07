@@ -6,8 +6,8 @@ import Login from "./pages/Login";
 import Questions from "./pages/Questions";
 import Quizzes from "./pages/Quizzes";
 import Result from "./pages/Result";
-import Rules from "./pages/Rules";
 import Signup from "./pages/Signup";
+import Rules from "./pages/Rules";
 import { QuizContext } from "./store/context";
 import { initialState, reducer } from "./store/reducer";
 
